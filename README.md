@@ -39,6 +39,5 @@ After you have added this, you will need to do:
 
 This module will add "My Entries" widget in the dashboard.
 
-* Release it
 
 Brought to you by [Simple Integrated Marketing](https://simple.com.au)
