@@ -21,7 +21,7 @@ return [
     'bootstrap' => ['my-entries-module'],
 ];
 ```
-You'll also need to make sure that you add the following to your project's `composer.json` file so that Composer can find your module:
+You'll also need to make sure that you add the following to your project's `composer.json` file so that Composer can find your module. `modules/myentriesmodule/src/` will be the path of the module source:
 
     "autoload": {
         "psr-4": {
