@@ -1,0 +1,27 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * My Entries module for Craft CMS
+ *
+ * MyEntriesModuleWidget Widget Settings
+ *
+ * @author    Simple Integrated Marketing
+ * @copyright Copyright (c) 2018 Simple Integrated Marketing
+ * @link      https://simple.com.au
+ * @package   MyEntriesModule
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("modules\\myentriesmodule\\assetbundles\\myentriesmodule\\MyEntriesModuleAsset") %}
+
+{{ forms.selectField({
+    label: 'Number of Entries',
+    id: 'numberOfEntries',
+    name: 'numberOfEntries',
+    value: widget['numberOfEntries'],
+    options: [ {label:"10",value:10}, {label:"20",value:20}, {label:"40",value:40}]
+})
+}}
