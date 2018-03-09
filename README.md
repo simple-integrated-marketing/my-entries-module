@@ -10,7 +10,7 @@ This module requires Craft CMS 3.0.0-RC1 or later.
 
 To install the module, follow these instructions.
 
-First, you'll need to add the contents of the `web.php` file to your `config/web.php` (or just copy it there if it does not exist). This ensures that your module will get loaded for each request. The file might look something like this:
+First, you'll need to add the contents of the `app.php` file to your `config/app.php` (or just copy it there if it does not exist). This ensures that your module will get loaded for each request. The file might look something like this:
 ```
 return [
     'modules' => [
