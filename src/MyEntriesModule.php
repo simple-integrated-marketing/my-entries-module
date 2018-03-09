@@ -51,7 +51,7 @@ class MyEntriesModule extends Module
     public function __construct($id, $parent = null, array $config = [])
     {
         Craft::setAlias('@my-entries-module', $this->getBasePath());
-        $this->controllerNamespace = 'modules\myentriesmodule\controllers';
+        $this->controllerNamespace = 'my-entries-module\controllers';
 
 
         // Base template directory
